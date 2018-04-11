@@ -1,0 +1,61 @@
+.container{
+	width:80%;
+	border:2px solid black;
+	box-shadow: 0px 1px 1px 1px;
+}
+#contact label{
+	display: inline-block;
+	width: 1px;
+	text-align: right;
+}
+#contact_submit{
+	padding-left: 100px;
+}
+#contact div{
+	margin-top: 1em;
+}
+textarea{
+	vertical-align: top;
+	height: 5em;
+}
+
+.error{
+	display: none;
+	margin-left: 10px;
+}		
+
+.error_show{
+	color: red;
+	margin-left: 10px;
+}
+
+input.invalid, textarea.invalid{
+	border: 2px solid red;
+}
+
+input.valid, textarea.valid{
+	border: 2px solid green;
+}
+@media(max-width:767px){
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+		width:92%;
+		margin:auto;
+	}
+	iframe{
+		margin-top:20px;
+		width:200px;height:300px;
+
+	}
+}
+
+
+.centered{
+	position: absolute;
+	top: 24%;
+	left: 50%;
+	font-size: 50px;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	margin-top: 20px;
+}
+
